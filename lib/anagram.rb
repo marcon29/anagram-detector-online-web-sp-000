@@ -6,5 +6,6 @@ class Anagram
   end
 
   def match(anagrams)
+    binding.pry
   end
 end
