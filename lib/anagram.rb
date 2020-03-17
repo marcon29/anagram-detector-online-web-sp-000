@@ -6,6 +6,8 @@ class Anagram
   end
 
   def match(anagrams)
-    binding.pry
+    anagrams.select do |w|
+      w.split("").sort.join == @word.split("").sort.join
+    end
   end
 end
